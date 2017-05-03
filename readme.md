@@ -59,3 +59,5 @@ echo "<br><br>",'写法二';
 \Tpl::display('test.index');
 
 ```
+## 例子
+app/Http/Controllers/Test/TestController.php
