@@ -55,6 +55,7 @@ echo "<br><br>",'写法二';
 0 => array('attr'=>'三年级'),
 1 => array('attr'=> '英语、数学、语文'),
 ));
-```
 \Tpl::assign('header','header');
 \Tpl::display('test.index');
+
+```
