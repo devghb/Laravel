@@ -63,4 +63,4 @@ echo "<br><br>",'写法二';
 app/Http/Controllers/Test/TestController.php
 
 ## 文档
-- [Real-time event broadcasting](<a href="https://github.com/devghb/Smarty/tree/master/doc">https://github.com/devghb/Smarty/tree/master/doc</a>).
+- (<a href="https://github.com/devghb/Smarty/tree/master/doc">https://github.com/devghb/Smarty/tree/master/doc</a>).
