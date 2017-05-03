@@ -39,6 +39,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 ## 用法
+```php
 echo '写法一';
 \Tpl::view('test.index',array(
 'name'  => '小明',
@@ -54,5 +55,6 @@ echo "<br><br>",'写法二';
 0 => array('attr'=>'三年级'),
 1 => array('attr'=> '英语、数学、语文'),
 ));
+```
 \Tpl::assign('header','header');
 \Tpl::display('test.index');
