@@ -1,3 +1,4 @@
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 ## 服务提供者
 -- <a href="http://www.guodev.cn/archives/365" target="_blank">http://www.guodev.cn/archives/365</a>
 ## 用法
