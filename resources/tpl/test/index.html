@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="{res file=js/test.js}" type="text/javascript"></script>
+</head>
+<body>
+    <div>头部:{include file=header.html}</div>
+    <div>姓名：{$name}</div>
+    <div>
+        介绍：<br>
+        {foreach from=$bio item=item key=key name=name}
+        【key:{$key}】;【val:{$item.attr}】;【index:{$smarty.foreach.name.index}】;【first:{$smarty.foreach.name.first}】;【iteration：{$smarty.foreach.name.iteration}】<br>
+        {/foreach}
+    </div>
+    <div>底部:{include file=test/bottom.html}</div>
+</body>
+</html>
